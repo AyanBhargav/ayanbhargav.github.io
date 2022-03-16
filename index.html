@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+
+        <!--Styling and customising-->
+
+        <style>
+            body {
+                background-color:bisque;
+            }
+
+            h1 {
+                color: rgb(59, 4, 4);
+            }
+
+            #First_sentence {
+                background-color:rgb(0, 255, 255);
+            }
+
+            .Steps_for_Mutton {
+                color:blueviolet;
+                font-size: 20px;
+                font-style: none;
+                font-family: sans-serif;
+            }
+
+            .Steps_for_Chicken {
+                color:rgb(255, 0, 0);
+                font-size: 20px;
+                font-family: sans-serif;
+            }
+            
+            .contents-list {
+                font-size: 17px;
+            }
+
+            #recipe_1 {
+                font-size: 25px;
+            }
+
+            #Ending_information {
+                font-size: 15px;
+                font-weight: bold;
+                font-style: italic;
+                font-family: fantasy;
+            }     
+
+            .mutton_image {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            .chicken_image {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+
+        </style>
+        <!--mutton image and chicken image's code are for aligning the text to center.-->
+    </head>
+    <!--Designing the body-->
+    <body>
+       
+        <h1 style="font-family: cursive;" id="First_sentence">Ayan's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+
+        <!--Internel Webpages link-->
+        <ul>
+            <li class="contents-list"><a href="#recipe_1">How to cook a delicious <em>Mutton </em> curry. (TAP ME!)</a></li>
+            <li class="contents-list"><a href="#Chicken">How to cook a delicious <em>Chicken</em> curry. (TAP ME!)</a></li>
+        </ul>
+
+        
+        <ol>
+            <li style="font-family: monospace;"><a href="#recipe_1">Recipe #1 (Mutton)</a></li>
+            <li style="font-family: monospace;"><a href="#Chicken">Recipe #1 (Chicken)</a></li>
+        </ol>
+       
+        <h2 id="recipe_1">Recipe #1</h2>
+        
+        <ul>
+            <li style="font-size: 20px;"> Mutton Curry.</li>
+        </ul>    
+
+        <ul>
+            <li style="font-size: 1.5em;">Time: 2-3 hours</li>
+            <li style="font-size: 1.5em;">Serves: 6 peoples</li>
+        </ul>
+        <!--List-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>Meat Masala</td>
+                <td>2 packets</td>
+            </tbody>
+            <tbody>
+                <td>Sliced Mutton</td>
+                <td>2 Kilogram</td>
+            </tbody>
+            </table>
+        <!--Steps For mutton code-->
+        <p class="Steps_for_Mutton"><strong>Step 1:</strong> Buy sliced Mutton. </p>
+        <p class="Steps_for_Mutton"><strong>Step 2:</strong> Fry onions. </p>
+        <p class="Steps_for_Mutton"><strong>Step 3:</strong> Put fried onions in cooker with mutton.</p>
+        <p class="Steps_for_Mutton"><strong>Step 4:</strong> Put salt(4 teaspoons) and masalas.
+        <p class="Steps_for_Mutton"><strong>Step 5:</strong> Cook it for 3 hours, place salads (onion rings for me) and serve hot.</p>
+        <!--Photo of Mutton-->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Bengali_Mutton_Curry.JPG/1280px-Bengali_Mutton_Curry.JPG" width="250" class="mutton_image" >
+        <ul>
+            <li style="font-size: 20px;"> Chicken Curry.</li>
+        </ul>
+
+        <h2 id="Chicken" >Recipe #1</h2>
+
+        <!--The list-->
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>Sliced Chicken</td>
+                <td>3 Kilogram</td>
+            </tbody>
+            <tbody>
+                <td>Chicken masala</td>
+                <td>2-3 packets</td>
+            </tbody>
+        </table>
+
+<!--Steps for Chicken code.-->        
+        <p class="Steps_for_Chicken"><strong>Step 1:</strong> Buy Slicked Chicken.</p>
+        <p class="Steps_for_Chicken"><strong>Step 2:</strong> Fry Onions.</p>
+        <p class="Steps_for_Chicken"><strong>Step 3:</strong> Put the onions after frying and chicken in cooker.</p>
+        <p class="Steps_for_Chicken"><strong>Step 4:</strong> Put salt (3 and half teaspoons) and masalas</p>
+        <p class="Steps_for_Chicken"><strong>Step 5:</strong> Put Salads and serve hot.</p>
+        <!--Photo of chicken-->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Chicken_Curry.JPG" width="250" class="chicken_image">
+
+    <p><em>Source: <a href="https://farmtotablecooking.com">Some recipes websites for other foods (tap here) </a></em> and also scroll down for on more information.</p>
+    <h9 id="Ending_information"><strong>Open the program after seeing the output from notepad OR Microsoft Visual Studio code.</strong></h9>
+    <h1 style="font-family: sans-serif; font-style: italic;">This update includes these changes:</h1>
+    <ol>
+        <li>Changed Font Size</li>
+        <li>Fixed that some text appeared to be small</li>
+        <li>Changed fonts to sans-serif, monospace, cursive and fantasy.</li>
+        <li>Aligned images to middle.</li>
+        <li>Added more comments.</li>
+    </ol>
+    
+    </body>
+</html>
+<!----THE END---->
